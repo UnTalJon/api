@@ -3,6 +3,15 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
+use App\Http\Controllers\Api\V1\ScheduleController;
+use App\Http\Controllers\Api\V1\QuestController;
+use App\Http\Controllers\Api\V1\ReportController;
+use App\Http\Controllers\Api\V1\PersonController;
+use App\Http\Controllers\Api\V1\FindController;
+use App\Http\Controllers\Api\V1\LogController;
+use App\Http\Controllers\Api\V1\MunicipioController;
+use App\Http\Controllers\Api\V1\CollectiveController;
+
 /*
 |--------------------------------------------------------------------------
 | API Routes
